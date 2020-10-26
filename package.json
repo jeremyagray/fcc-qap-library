@@ -1,0 +1,34 @@
+{
+	"name": "fcc-qap-library",
+	"version": "0.0.1",
+	"description": "FCC QAP Library Project",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"express": "^4.17.0",
+		"cors": "^2.8.5",
+		"body-parser": "^1.19.0",
+		"chai": "^4.2.0",
+		"mongoose": "^5.10.7",
+		"chai-http": "^4.3.0",
+		"mocha": "^8.1.3",
+		"zombie": "^6.1.4",
+		"helmet": "^4.1.1",
+		"nocache": "^2.1.0"
+	},
+	"engines": {
+		"node": "14.13.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://fcc-qap-library.jeremyagray.repl.run"
+	},
+	"keywords": [
+		"node",
+		"replit",
+		"express"
+	],
+	"license": "MIT"
+}
